@@ -6,11 +6,11 @@ const Tasks = ({ tasks, handleTaskClick, handleTaskDeletion }) => {
     return (
         <>
             {tasks.map((task) => (
-                <Task 
-                    task={task} 
-                    handleTaskClick={handleTaskClick} 
-                    handleTaskDeletion={handleTaskDeletion}
-                />
+                    <Task 
+                        task={task} 
+                        handleTaskClick={handleTaskClick} 
+                        handleTaskDeletion={handleTaskDeletion}
+                    />
             ))}
         </>
     );
